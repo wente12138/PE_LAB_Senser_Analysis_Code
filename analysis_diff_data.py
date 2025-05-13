@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from tkinter import Tk, filedialog
 
 def analyze_sensor_data(folder_path):
-    plt.rcParams['font.family'] = 'Heiti TC'
+    plt.rcParams['font.family'] = 'SimHei'
     file_types = {
         'dataV.txt': 'Vertical Sensor',
         'dataH.txt': 'Horizontal Sensor 1'
